@@ -1,0 +1,100 @@
+
+
+/* Style Header */
+body {
+    background:url(1691722.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling Container */
+.container {
+    max-width: 600px; /* Atur lebar maksimum container sesuai kebutuhan */
+    padding: 20px; /* Tambahkan padding sesuai kebutuhan */
+    background-color: #ffffff75;
+    
+    /* Menggunakan Flexbox untuk posisi */
+    display: flex;
+    flex-direction: column; /* Tampilkan elemen dalam kolom */
+    justify-content: center; /* Container akan berada di tengah vertikal */
+    align-items: center; /* Container dan button berada di tengah horizontal */
+    height: 100vh; /* Menggunakan tinggi viewport agar terpusat vertikal */
+}
+
+
+/* Styling Button */
+button {
+    background-color:#066cb1;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* Style Paragraph */
+p, ol li {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:  #066cb1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .lh  {
+    float: right;
+    border-left: 1px solid #bbb;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  .lhd{
+    float: left;
+    border-left: 1px solid #bbb;
+    font-size: 18px;
+    line-height: 1.5;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+  }
+  
+  .lh:last-child {
+    border-right: none;
+  }
+  
+  .lh a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  .lh a:hover {
+    background-color:  #3498db;
+  }
+
+
+
